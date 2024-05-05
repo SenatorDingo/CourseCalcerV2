@@ -85,6 +85,19 @@ courses.append(['SEG', '4902', 'winter', 'SEG 4901'])
 courses.append(['CEG', '2136', 'summer', 'ITI 1100'])
 courses.append(['CEG', '3156', 'summer', 'CEG 3155'])
 courses.append(['CEG', '3185', 'summer', 'MAT 2377'])
+courses.append(['FRE', '1000', 'summer', 'NUL0000'])
+courses.append(['FRE', '1000', 'winter', 'NUL0000'])
+courses.append(['FRE', '1000', 'fall', 'NUL0000'])
+courses.append(['FRE', '1001', 'summer', 'NUL0000'])
+courses.append(['FRE', '1001', 'winter', 'NUL0000'])
+courses.append(['FRE', '1001', 'fall', 'NUL0000'])
+courses.append(['FRE', '1002', 'summer', 'NUL0000'])
+courses.append(['FRE', '1002', 'winter', 'NUL0000'])
+courses.append(['FRE', '1002', 'fall', 'NUL0000'])
+courses.append(['SEE', '1000', 'fall', 'NUL0000'])
+courses.append(['SEE', '1000', 'winter', 'NUL0000'])
+courses.append(['PVS', '1000', 'winter', 'NUL0000'])
+
 
 
 previousCourseList = ["MAT1348","SEG2900","ENG1112", "ITI1120", "PHY1322","PHY1321","ITI1121","ITI1100","MAT1322", "MAT1320", "GNG1105","MAT1341","CHM1311","CEG2136",

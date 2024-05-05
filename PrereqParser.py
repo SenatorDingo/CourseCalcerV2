@@ -1,8 +1,6 @@
-done = ["SEG2900", "ENG1112", "ITI1120", "PHY1321", "MAT1320", "MAT1348", "ITI1121", "ITI1100", "MAT1322", "PHY1322",
+done = ["NUL0000", "SEG2900", "ENG1112", "ITI1120", "PHY1321", "MAT1320", "MAT1348", "ITI1121", "ITI1100", "MAT1322", "PHY1322",
         "MAT1341", "CHM1311", "CSI2110", "SEG2105", "GNG1105", "GNG2101", "MAT2377", "SEG3102", "CEG2136", "SEG2901"]
 
-newDone = ["SEG2900", "ENG1112", "ITI1120", "PHY1321", "MAT1320", "MAT1348", "ITI1121", "ITI1100", "MAT1322", "PHY1322",
-        "MAT1341", "CHM1311", "CSI2110", "SEG2105", "GNG1105", "GNG2101", "MAT2377", "SEG3102", "CEG2136", "SEG2901"]
 
 def analyseExpression(expression):
     if 'or' in expression:
@@ -12,7 +10,7 @@ def analyseExpression(expression):
                 return True
         return False
     elif '|' in expression:
-        expression = expression.replace('$','')
+        expression = expression.replace('$', '')
         command = expression.split('|')
         numCourse = int(int(command[0])/3)
         allowedMajors = [command[1][i:i + 3] for i in range(0, len(command[1]), 3)]
